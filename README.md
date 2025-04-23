@@ -25,3 +25,9 @@ Open your browser and navigate to the following URLs:
 ---
 
 ✅ You are now ready to use the **Online Food Management System**!
+
+Sample Screenshots
+![Image](https://github.com/user-attachments/assets/dc890aa8-4856-4640-98ef-da565d48eeff)
+![Image](https://github.com/user-attachments/assets/7613be5b-f972-4e05-841a-488dd5684ab3)
+
+![Image](https://github.com/user-attachments/assets/59c53c64-5448-4c2a-96ae-9e706674bc06)
