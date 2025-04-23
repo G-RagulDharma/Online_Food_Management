@@ -1,0 +1,317 @@
+.bg
+{
+  background-color: cyan;
+  background-image: url('Images/bg1.jfif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.home 
+{
+  margin-top: 1%;
+  position: absolute;
+  right: 10px;
+}
+
+.one
+{
+  background-color: #ffe6f9;
+  text-align: center;
+  color: #e600e6;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.border 
+{
+  background-color: #ffe6f9;
+  position: absolute;
+  border-style: dotted;
+  border-color: #ff33bb;
+  border-width: 2px;
+  margin-left: 35%;
+  margin-top: 15vh;
+  width: 30%;
+  padding: 20px;
+}
+
+.input-field 
+{
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+
+.input-label 
+{
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  width: 50%; 
+}
+
+.radio-label
+{
+	display: flex;
+	align-items: center; 
+}
+
+.input-box 
+{
+  padding: 5px;
+  border: 2px solid #e600e6;
+  width: auto; 
+}
+
+
+.button 
+{
+  margin-left: 40%;
+  background-color: #e600e6;
+  color: cyan;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
+  border-style: dotted dashed solid double;
+  border-color: yellow;
+  border-width: 2px;
+}
+
+.button:hover 
+{
+  background-color: #e600e6;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial;
+  color: white;
+}
+
+
+@media only screen and (max-width:820px) and (min-width:768px) 
+{
+	body
+	{
+		margin:0;
+		padding:0;
+	}
+	.bg
+	{
+		background-attachment:fixed;
+	}
+	.one
+	{
+		width:100%;
+		background-color: #ffe6f9;
+		text-align:center;
+		color:#e600e6;
+		margin: 0;  
+		padding-left:0%;
+	}
+	.home
+	{
+		position: absolute;
+        right: 10px;
+        top: 7%;   
+	}
+	.border
+	{
+		margin-left:10vw;
+		height:auto;
+		width:70%;
+		padding-left:1vw;
+	}
+	.input-field 
+	{
+		padding:10px;
+	}
+
+	.input-label 
+	{
+		font-size:18px;
+		margin-right:40px;
+		width: 30%; 
+	}
+
+
+	.input-box 
+	{
+		padding: 3px;
+		border: 2px solid #e600e6;
+		width: 50%; 
+	}
+	
+}
+@media only screen and (max-width:767px) and (min-width:481px)
+{	
+	body
+	{
+		margin:0;
+		padding:0;
+	}
+	.bg
+	{
+		background-attachment:fixed;
+	}
+	.one
+	{
+		width:100%;
+		background-color: #ffe6f9;
+		text-align:center;
+		color:#e600e6;
+		margin: 0;  
+		padding-left:0%;
+	}
+	.home
+	{
+		position: absolute;
+        right: 10px;
+        top: 7%;   
+	}
+	.border
+	{
+		margin-left:10vw;
+		height:auto;
+		width:70%;
+		padding-left:1vw;
+	}
+	.input-field 
+	{
+		padding:10px;
+	}
+
+	.input-label 
+	{
+		font-size:18px;
+		margin-right:40px;
+		width: 30%; 
+	}
+
+
+	.input-box 
+	{
+		padding: 3px;
+		border: 2px solid #e600e6;
+		width: 50%; 
+	}
+	
+
+}
+@media only screen and (max-width:480px) and (min-width:400px)
+{	
+	body
+	{
+		margin:0;
+		padding:0;
+	}
+	.bg
+	{
+		background-attachment:fixed;
+	}
+	.one
+	{
+		font-size:15px;
+		width:100%;
+		background-color: #ffe6f9;
+		text-align:center;
+		color:#e600e6;
+		margin: 0;  
+		padding-left:0%;
+	}
+	.home
+	{
+		position: relative;
+        left: 10px;
+        top: 2%;   
+	}
+	.border
+	{
+		margin-left:7vw;
+		height:auto;
+		width:60%;
+		padding-left:1vw;
+	}
+	.input-field 
+	{
+		padding:5px;
+	}
+
+	.input-label 
+	{
+		font-size:13px;
+		margin-right: 10px;
+		width: 35%; 
+	}
+
+
+	.input-box 
+	{
+		padding: 2px;
+		border: 2px solid #e600e6;
+		width: 50%; 
+	}
+	
+}	
+
+@media only screen and (max-width:399px) and (min-width:280px)
+{	
+		body
+	{
+		margin:0;
+		padding:0;
+	}
+	.bg
+	{
+		background-attachment:fixed;
+	}
+	.one
+	{
+		font-size:15px;
+		width:100%;
+		background-color: #ffe6f9;
+		text-align:center;
+		color:#e600e6;
+		margin: 0;  
+		padding-left:0%;
+	}
+	.home
+	{
+		position:relative;
+		align-items:left;
+		left:2%;
+        top: 2%;   
+	}
+	.border
+	{
+		margin-left:2vw;
+		height:auto;
+		width:70%;
+		padding-left:1vw;
+	}
+	.input-field 
+	{
+		padding:5px;
+	}
+
+	.input-label 
+	{
+		font-size:10px;
+		margin-right: 10px;
+		width: 40%; 
+	}
+
+
+	.input-box 
+	{
+		padding: 1px;
+		border: 2px solid #e600e6;
+		width: 50%; 
+	}
+	.radio-label
+	{
+		font-size: 10px;
+	}
+	
+}	
